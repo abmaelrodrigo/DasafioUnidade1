@@ -1,0 +1,46 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 45px;
+
+  border-radius: 50%;
+}
+
+#totalUsers,
+#totalStatistics {
+  margin-left: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+}
+
+#input,
+#users-list,
+#statistics-list {
+  background-color: #f1f1f1;
+  border: 3px solid gray;
+  width: 500px;
+  margin: 30px 40px 30px 40px;
+
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+}
